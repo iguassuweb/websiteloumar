@@ -1,13 +1,11 @@
 <h2>Novo web site Loumar Turismo</h2>
 
-<h4>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.</h4>
-
-PASSO A PASSO PARA RODAR O PROJETO LOCAL
+<h3>PASSO A PASSO PARA RODAR O PROJETO LOCAL</h3>
 <br>
-<p> 1 - Instalr nodeJS versão >= 14.0.1</p>
+<p> 1 - Instalar nodeJS versão >= 14.0.1</p>
 <p> 2 - Instalar npm versão >= 6.0.1</p>
-<p> 3 - Instalar Angular versão >= 13</p>
-<p> 4 - Baixar o projeto do repositorio </p>
+<p> 3 - Instalar Angular versão >= [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.</p>
+<p> 4 - Clonar o projeto do repositorio (git clone ****)</p>
 <p> 5 - Rodar o comando NPM START para instalar as dependencias (node_modules)</p>
 <p> 6 - Instalar a extensão do vscode PRETTIER e configurar como Padrão</p>
 
