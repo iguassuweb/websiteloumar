@@ -8,14 +8,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './templates/header/header.component';
 import { FooterComponent } from './templates/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { AtrativosComponent } from './components/atrativos/atrativos.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AtrativosComponent
   ],
   imports: [
     BrowserModule,

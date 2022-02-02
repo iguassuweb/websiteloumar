@@ -4,9 +4,10 @@
 /**
  * TODO: VERIFICAR QUAIS OS TIPOS DE DADOS QUE PODEMOS BUSCAR NA API PARA CRIAR AS INTERFACES
  */
-export interface IAtrativos{
-id: number;
-titulo: string;
-validade: Date;
-preco: number;
+export interface IAtrativos {
+  albumId: number;
+  id: number;
+  title: string;
+  url: string;
+  thumbnailUrl: string;
 }

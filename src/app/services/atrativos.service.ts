@@ -10,17 +10,18 @@ export class AtrativosService {
   private URL_ATRATIVOS: string =
     'http://sistema.loumarturismo.com.br/gestorsites/Api/Atrativo/GetListaAtrativosSite';
 
+  private URL_TESTE: string = 'https://jsonplaceholder.typicode.com/photos/?albumId=1';
+
   constructor(private http: HttpClient) {}
 
-/**
+  /**
  *
  * TODO: REFINAR ESTE METODO PARA PEGAR O XML E TRANSFORMAR EM UM JSON
  *
  * O QUE ELE FAZ?
   recebe a interface do tipo atrativos criado no arquivo ts e esta é como um ARRAY
  */
-  getAllAtrativos(): Observable<IAtrativos[]> {
-
-    return this.http.get<IAtrativos[]>(this.URL_ATRATIVOS);
+  public getAllAtrativos(): Observable<IAtrativos[]> {
+    return this.http.get<IAtrativos[]>(this.URL_TESTE);
   }
 }
